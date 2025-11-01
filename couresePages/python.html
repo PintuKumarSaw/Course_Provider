@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Python page </title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="javapage.css">
+  <link rel="stylesheet" href="../style.css" />
+
+</head>
+
+<body>
+
+  <!-- Navbar part -->
+  <nav
+    class="navbar navbar-expand-lg navbar-light bg-light w-100 position-sticky top-0 shadow mb-5 bg-body rounded mt-0">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="../Image/logo.png" alt="logo" id="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div id="part1-nav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../about.html">About</a>
+            </li>
+            <div class="dropdown">
+              <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                Service
+              </button>
+              <ul class="dropdown-menu collapse bg-light text-dark mb-25">
+                <li><a class="dropdown-item" href="../service.html">Software Training</a></li>
+                <li><a class="dropdown-item" href="#">Placement</a></li>
+                <li><a class="dropdown-item" href="#">Mock Interview</a></li>
+              </ul>
+            </div>
+
+            <li class="nav-item">
+              <a class="nav-link" href="../contact.html">Contact us</a>
+            </li>
+
+            <div class="dropdown">
+              <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                Account
+              </button>
+              <ul class="dropdown-menu collapse bg-light text-dark mb-25">
+                <li><a class="dropdown-item" href="../login.html">Login</a></li>
+                <li><a class="dropdown-item" href="../Register.html">Register</a></li>
+                <li><a class="dropdown-item" href="../forgetForm.html">Forget</a></li>
+              </ul>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar end -->
+
+  <!-- Python course main content -->
+  <div class="container">
+
+    <div class="java-coures container-fluid">
+      <!-- Python banner Img -->
+      <div class="java-baner-pic">
+        <img src="../Image/python.png" alt="python-pic" height="400">
+      </div>
+    </div>
+
+    <!-- Div Part section -->
+    <div class="container-fluid">
+      <div class="java-course-main-box">
+
+        <div class="java-coursebox">
+          <p><b>4.9/5 Rating</b></p>
+          <p>Based on 6,000+ student reviews</p>
+        </div>
+
+        <div class="java-coursebox">
+          <p><b>10,000+ Enrolled</b></p>
+          <p>Students worldwide</p>
+        </div>
+
+        <div class="java-coursebox">
+          <p><b>10+ Years Experience</b></p>
+          <p>Industry expert trainers</p>
+        </div>
+
+        <div class="java-coursebox">
+          <p><b>90% Placement Success</b></p>
+          <p>Students placed in top companies</p>
+        </div>
+
+        <div class="java-coursebox">
+          <p><b>Course Duration</b></p>
+          <p class="durtion">5 Months</p>
+        </div>
+
+        <div class="java-coursebox">
+          <p><b>Course Price</b></p>
+          <p><span class="price"><b>₹ 30000</b></span></p>
+        </div>
+
+        <div class="java-coursebox">
+          <p><b>Download Pdf</b></p>
+          <a href="https://docs.python.org/3/faq/programming.html">
+            <button class="btn btn-primary btn-lg text-light w-75">PDF</button>
+          </a>
+        </div>
+
+        <div class="java-coursebox">
+          <p><b>Watch Demo</b></p>
+          <a href="https://www.youtube.com/watch?v=ERCMXc8x7mc&ab_channel=ApnaCollege">
+            <button class="btn btn-danger btn-lg text-light w-75">Watch Now</button>
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- modal Buy Now -->
+    <section class="text-start my-4">
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#courseBuy">
+        Buy Now Course
+      </button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="courseBuy">
+        <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content">
+
+           
+            <div class="modal-header">
+              <h5 class="modal-title" id="courseBuyLabel">Enroll Now Course</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+
+            
+            <div class="modal-body">
+              <div class="container">
+                <div class="card shadow rounded">
+                  <div class="row g-0 align-items-center">
+
+                    <!-- Image Section -->
+                    <div class="col-lg-4 col-md-12">
+                      <img src="../Image/python.png" class="img-fluid rounded-start w-100 h-100 object-fit-cover"
+                        alt="Product Image">
+                    </div>
+
+                    <!-- Details Section -->
+                    <div class="col-lg-4 col-md-12 p-4">
+                      <h4 class="text-dark">Premium Course</h4>
+                      <p class="text-muted mb-2">Access to tutorials, assignments, and live sessions.</p>
+                      <p><strong>Duration:</strong> 6 Months</p>
+                      <h5 class="text-success fw-bold">Price: $199</h5>
+                    </div>
+
+                    <!-- Payment Form Section -->
+                    <div class="col-lg-4 col-md-12 p-4 border-start">
+                      <h5 class="mb-3">Payment Details</h5>
+                      <form>
+                        <div class="mb-3">
+                          <label class="form-label">Card Number</label>
+                          <input type="text" class="form-control" placeholder="XXXX XXXX XXXX XXXX">
+                        </div>
+                        <div class="row">
+                          <div class="col mb-3">
+                            <label class="form-label">Expiry</label>
+                            <input type="text" class="form-control" placeholder="MM/YY">
+                          </div>
+                          <div class="col mb-3">
+                            <label class="form-label">CVV</label>
+                            <input type="password" class="form-control" placeholder="***">
+                          </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Pay Now</button>
+                      </form>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Python Syllabus List -->
+    <div class="course-module-box container-fluid">
+      <h3 id="course-module-head">Course Modules</h3>
+      <div class="course-module">
+        <ul class="list-group">
+          <li class="list-group-item">Module-1: Fullstack Introduction</li>
+          <li class="list-group-item">Module-2: Environment Setup & Tools</li>
+          <li class="list-group-item">Module-3: Python Basics (Syntax, Variables, Data Types)</li>
+          <li class="list-group-item">Module-4: Control Statements & Loops</li>
+          <li class="list-group-item">Module-5: Functions, Modules & Packages</li>
+          <li class="list-group-item">Module-6: Object-Oriented Programming in Python</li>
+          <li class="list-group-item">Module-7: Exception Handling & File Handling</li>
+          <li class="list-group-item">Module-8: Python Libraries (NumPy, Pandas, Matplotlib)</li>
+          <li class="list-group-item">Module-9: Database (SQL & MongoDB)</li>
+          <li class="list-group-item">Module-10: Web Development with HTML, CSS, JS</li>
+          <li class="list-group-item">Module-11: Django Framework</li>
+          <li class="list-group-item">Module-12: REST API Development with Django REST Framework</li>
+          <li class="list-group-item">Module-13: Flask Framework (Introduction)</li>
+          <li class="list-group-item">Module-14: Authentication & Security in Django</li>
+          <li class="list-group-item">Module-15: Data Visualization & Reporting</li>
+          <li class="list-group-item">Module-16: Linux Commands</li>
+          <li class="list-group-item">Module-17: AWS Cloud Basics</li>
+          <li class="list-group-item">Module-18: DevOps Tools (Git, Docker, CI/CD)</li>
+          <li class="list-group-item">Module-19: Two Mini Projects Development</li>
+          <li class="list-group-item">Module-20: One Major Project Development</li>
+          <li class="list-group-item">Module-21: Interview Guidance & Placement Assistance</li>
+        </ul>
+      </div>
+    </div>
+
+  </div> <!-- ✅ Closing main container -->
+
+  <!-- Footer -->
+  <footer>
+    <div class="foot-container">
+      <div class="foot-part" id="box1">
+        <div>
+          <img src="../Image/logo.png" alt="foot-logo" id="foot-logo" />
+        </div>
+        <div class="foot-details">
+          <p class="basic-details">
+            ADDRESS: Itvedant Education Dadar 502, 5th Floor Sunshine
+            Plaza, MMGS Marg Gautam Nagar, Dadar East, Mumbai, Maharashtra
+            Pan India Branches <br />
+            FOR COURSE CONTACT <br />
+            NUMBER: +919205004404
+          </p>
+        </div>
+      </div>
+
+      <div class="foot-part" id="box2">
+        <h3>QUICK LINKS</h3>
+        <hr />
+        <div class="foot-details">
+          <ul>
+            <li><a href="#">News & Events</a></li>
+            <li><a href="#">Interview Questions</a></li>
+            <li><a href="#">Online Batches</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Hires From Us</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="foot-part" id="box3">
+        <h3>OUR POLICIES</h3>
+        <hr />
+        <div class="foot-details">
+          <ul>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Refund Policy</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="foot-part" id="box4">
+        <h3>TRENDING COURSES</h3>
+        <hr />
+        <div class="foot-details">
+          <ul>
+            <li><a href="#">Fullstack Development</a></li>
+            <li><a href="#">DSA</a></li>
+            <li><a href="#">DevOps with AWS</a></li>
+            <li><a href="#">Cloud Computing</a></li>
+            <li><a href="#">SpringBoot & Microservices</a></li>
+            <li><a href="#">Gen AI</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="foot-part" id="box5">
+        <h3>CONTACT US</h3>
+        <hr />
+        <div class="foot-details">
+          <ul>
+            <li>
+              <a href="tel:+912233445566">
+                <i class="fa-solid fa-phone"></i> +91 95084417626
+              </a>
+            </li>
+            <li>
+              <a href="mailto:mail@itvedant.com">
+                <i class="fa-solid fa-envelope"></i> mail@itvedant.com
+              </a>
+            </li>
+            <li>
+              <a href="https://maps.app.goo.gl/8kNQ3BFYPG4G5K448">
+                <i class="fa-solid fa-location-dot"></i>
+                ADDRESS: Itvedant Education Dadar 502, 5th Floor Sunshine Plaza, MMGS Marg Gautam Nagar,
+                Dadar East, Mumbai, Maharashtra Pan India Branches
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="foot-contact">
+        <p>
+          <b id="follow-contact">Follow US : </b>
+          <i class="fa-brands fa-whatsapp"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-brands fa-linkedin"></i>
+        </p>
+      </div>
+
+      <div class="foot-copy">
+        <p>&copy; CopyRight ItVedant 2025</p>
+        <p>Made By Pintu <i class="fa-solid fa-face-smile"></i></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+
+</body>
+</html>

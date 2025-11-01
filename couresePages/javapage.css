@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    /* border: 2px solid black; */
+}
+
+
+
+.java-baner-pic img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 20px;
+}
+
+.java-course-main-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+
+
+}
+
+.java-coursebox {
+    width: 250px;
+    height: 100px;
+    background-color:rgb(235, 239, 243);
+    margin:0.5rem;
+    text-align: center;
+    
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px lightgray;
+    transition: 1s;
+}
+
+.java-coursebox:hover {
+    transform: scale(1.03);
+    transition: 1s;
+}
+
+b {
+    color: #5563e0;
+}
+
+.price b,
+.durtion {
+    color: rgb(41, 197, 41);
+    font-weight: 800;
+
+}
+
+
+
+#course-module-head{
+    color: rgb(56, 132, 225);
+    text-align: center;
+    margin-bottom: 10px;
+}
+.course-module {
+    width: 80%;
+    margin: auto;
+    background-color: aliceblue;
+    padding: 20px;
+    
+    
+}
+
+.course-module li:hover{
+    transform: scale(1.03);
+    transition: 2s;
+    
+}
+
+ .course-module ul {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-sizing: 2px 2px 2px lightgray;
+    margin: 10px;
+   
+}
+
+
+.course-module li {
+    /* list-style-type: circle; */
+    /* list-style-image: url("Image/listcircle.png"); */
+    list-style-position: inside;
+
+    font-weight: 500;
+    font-size: 18px;
+    margin: 15px;
+    background-color: white;
+    line-height: 2;
+    box-shadow: 2px 2px 2px lightgray;
+    border-radius: 5px;
+    
+    padding-bottom: 15px;
+    
+  
+    
+}
+
+
+
+.module-circle{
+    width: 40px;
+    height: 40px;
+    /* border: 2px solid black; */
+    display: inline-block;
+    border-radius: 50%;
+    background-color: aliceblue;
+    opacity: 0.9;
+    
+}
+
+
+

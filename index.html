@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ItVedant Project</title>
+  <!-- Font Icons Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- bootstrap Link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+   <!-- Navbar part -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow mb-5  position-sticky top-0">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./index.html"><img src="./Image/logo.png" alt="logo" id="logo" style="height:40px;"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Service</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="service.html">Software Training</a></li>
+              <li><a class="dropdown-item" href="./placement.html">Placement</a></li>
+              <li><a class="dropdown-item" href="#">Mock Interview</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact us</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Account</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="login.html">Login</a></li>
+              <li><a class="dropdown-item" href="Register.html">Register</a></li>
+              <li><a class="dropdown-item" href="forgetForm.html">Forget</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar end -->
+
+
+  <!-- Carsouel Part -->
+  <div class="container-fluid">
+    <div class="carousel  mt-5 ">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Image/banner1.png" class="d-block w-100 img-fluid" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="Image/banner2.png" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="Image/banner3.png" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- modal -->
+  <section>
+    <div class="box" align="center">
+      <h2 class="text-center mx-4">Master In-Demand IT Skills with Real-Time Projects and 100% Job Assistance</h2>
+
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Explore
+      </button>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content  ">
+          <div class="modal-header">
+            <h5 class="modal-title">Enroll Now Course</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-center ">
+            <img src="./Image/pintu.jpg" alt="pic" width="200" height="200" class="image-fulid border  rounded-circle">
+
+            <div class="modal-item">
+              <div class="row">
+                <div class="col">
+                  <h2 class="text-center text-dark">Registration</h2>
+                  <form>
+                    <div class="mb-3">
+                      <label for="txtName" class="form-label text-dark fw-bold text-start d-block">Username:</label>
+                      <input type="text" class="form-control" id="txtName" placeholder="Enter Username">
+                    </div>
+                    <div class="mb-3">
+                      <label for="txtEmail" class="form-label text-dark fw-bold text-start d-block">Email
+                        Id:</label>
+                      <input type="email" class="form-control" id="txtEmail" placeholder="Enter Valid Email address">
+                    </div>
+                    <div class="mb-3">
+                      <label for="txtPassword" class="form-label text-dark fw-bold text-start d-block">Password:</label>
+                      <input type="password" class="form-control" id="txtPassword">
+                    </div>
+                    <div class="mb-3">
+                      <label for="txtCourse" class="form-label text-dark fw-bold text-start d-block">Course
+                        Name:</label>
+                      <input type="text" class="form-control" id="txtCourse">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Register</button>
+                    <p class="text-dark">Already User ? <a href="login.html">Login</a></p>
+                    <a href="forgetForm.html" class="text-center">Forget password</a>
+                  </form>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">ok</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+  </section>
+
+  <!-- Marque Offer Course -->
+  <section>
+    <div style="margin: 20px 0; text-align:center; width: 500px; float: right; ">
+      <marquee behavior="scroll" direction="left" scrollamount="8"
+        style="color: white; background: linear-gradient(90deg, #b8afad, #79aae0); font-size: 20px; font-weight: bold; padding: 10px; border-radius: 8px;">
+        🎓 Special Offer on Courses – Get up to 50% OFF! 🚀 | Enroll Now & Boost Your Career ✨
+      </marquee>
+    </div>
+  </section>
+
+
+  <!-- Card Part -->
+  <section>
+    <!-- Card Content main  -->
+    <div class="content main">
+      <!-- java -->
+      <div class="course" id="java">
+        <div class="course-box-img">
+          <img src="Image/java.png" alt="java " class="coures-img" />
+        </div>
+
+        <div class="course-title">
+          <p><b>Java Fullstack Developer</b></p>
+          <p><b>Course Duration :</b> 5 months</p>
+        </div>
+        <div class="details price">
+          <a href="couresePages/javapage.html" target="_self">
+            <button id="view-more">
+              <span class="icon"></span> View more
+            </button></a>
+        </div>
+      </div>
+
+      <!-- Pyhton -->
+      <div class="course" id="python">
+        <div class="course-box-img">
+          <img src="Image/python.png" alt="pyhton " class="coures-img" />
+        </div>
+
+        <div class="course-title">
+          <p><b>Python Fullstack Developer</b></p>
+          <p><b>Course Duration :</b> 5 months</p>
+        </div>
+        <div class="details price">
+          <a href="couresePages/python.html">
+            <button id="view-more">
+              <span class="icon"></span> View more
+            </button></a>
+        </div>
+      </div>
+
+      <!-- DevOPs -->
+      <div class="course" id="Devops">
+        <div class="course-box-img">
+          <img src="Image/devoop.png" alt="Devopps " class="coures-img" />
+        </div>
+
+        <div class="course-title">
+          <p><b>Devoops Developer</b></p>
+          <p><b>Course Duration :</b> 5 months</p>
+        </div>
+        <div class="details price">
+          <a href="couresePages/Devops.html">
+            <button id="view-more">
+              <span class="icon"></span> View more
+            </button>
+          </a>
+        </div>
+      </div>
+
+      <!-- Java Real Time -->
+      <div class="course" id="java-Real">
+        <div class="course-box-img">
+          <img src="Image/javaRealTimeProj.png" alt="java " class="coures-img" />
+        </div>
+
+        <div class="course-title">
+          <p><b>Java Fullstack Real Time Project</b></p>
+          <p><b>Course Duration :</b> 5 months</p>
+        </div>
+        <div class="details price">
+          <a href="couresePages/JavaRealTime.html">
+            <button id="view-more">
+              <span class="icon"></span> View more
+            </button>
+          </a>
+        </div>
+      </div>
+
+      <!-- React -->
+      <div class="course" id="React">
+        <div class="course-box-img">
+          <img src="Image/React.png" alt="React " class="coures-img" />
+        </div>
+
+        <div class="course-title">
+          <p><b>React Developer</b></p>
+          <p><b>Course Duration :</b> 5 months</p>
+        </div>
+        <div class="details price">
+          <a href="couresePages/React.html"><button id="view-more">
+              <span class="icon"></span> View more
+            </button></a>
+        </div>
+      </div>
+
+      <!-- SpringBoot -->
+      <div class="course" id="springboot">
+        <div class="course-box-img">
+          <img src="Image/sprinboot.png" alt="springboot " class="coures-img" />
+        </div>
+
+        <div class="course-title">
+          <p><b>Springboot</b></p>
+          <p><b>Course Duration :</b> 5 months</p>
+        </div>
+        <div class="details price">
+          <a href="couresePages/Springbootpage.html">
+            <button id="view-more">
+              <span class="icon"></span> View more
+            </button></a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+
+
+  <!-- Marque part -->
+  <div class="marque-container">
+    <h1 class="text-center">Our Alumni Working In</h1>
+    <marquee behavior="alternate" direction="right" scrollamount="10" onmouseover="this.stop()"
+      onmouseout="this.start()">
+      <img src="Image/marqueimage/boi.jpg" alt="" />
+      <img src="Image/marqueimage/wirpo.png" alt="" />
+      <img src="Image/marqueimage/accnture.jpg" alt="" />
+      <img src="Image/marqueimage/sbi.png" alt="" />
+      <img src="Image/marqueimage/ey.png" alt="" />
+      <img src="Image/marqueimage/wirpo.png" alt="" />
+      <img src="Image/marqueimage/google.png" alt="" />
+      <img src="Image/marqueimage/tcs.png" alt="" />
+    </marquee>
+    <hr />
+
+    <marquee behavior="alternate" direction="left" scrollamount="10" onmouseover="this.stop()"
+      onmouseout="this.start()">
+      <img src="Image/marqueimage/boi.jpg" alt="" />
+      <img src="Image/marqueimage/wirpo.png" alt="" />
+      <img src="Image/marqueimage/accnture.jpg" alt="" />
+      <img src="Image/marqueimage/sbi.png" alt="" />
+      <img src="Image/marqueimage/ey.png" alt="" />
+      <img src="Image/marqueimage/wirpo.png" alt="" />
+      <img src="Image/marqueimage/google.png" alt="" />
+      <img src="Image/marqueimage/tcs.png" alt="" />
+    </marquee>
+  </div>
+
+  <!-- footer part -->
+  <footer>
+    <div class="foot-container">
+      <div class="foot-part" id="box1">
+        <div>
+          <img src="Image/logo.png" alt="foot-logo" id="foot-logo" />
+        </div>
+        <div class="foot-details">
+          <p class="basic-details">
+            ADDRESS: Itvedant Education dadar 502, 5th Floor Sunshine
+            Plaza,MMGS Marg Gautam nagar, Dadar East,Mumbai, Maharashtra Pan
+            India Branches <br />
+            FOR COURSE CONTACT
+            <br />
+            NUMBER: +919205004404
+          </p>
+        </div>
+      </div>
+
+      <div class="foot-part" id="box2">
+        <h3>QUICK LINKS</h3>
+        <hr />
+        <div class="foot-details">
+          <ul>
+            <li>
+              <a href="#">News & Events</a>
+            </li>
+            <li>
+              <a href="#">Interview Questions</a>
+            </li>
+            <li>
+              <a href="#">Online Batches</a>
+            </li>
+            <li>
+              <a href="#">Contact us</a>
+            </li>
+            <li>
+              <a href="#">About us</a>
+            </li>
+            <li>
+              <a href="#">Hires Froms us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="foot-part" id="box3">
+        <h3>OUR POLICIES</h3>
+        <hr />
+        <div class="foot-details">
+          <ul>
+            <li>
+              <a href="#">Pricing</a>
+            </li>
+            <li>
+              <a href="#">Terms & Conditions</a>
+            </li>
+            <li>
+              <a href="#"> Privacy Policy</a>
+            </li>
+            <li>
+              <a href="#">Refund Ploicy</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="foot-part" id="box4">
+        <h3>TRENDING COURSES</h3>
+        <hr />
+        <div class="foot-details">
+          <ul>
+            <li><a href="#">Fullstack Development</a></li>
+            <li><a href="#">DSA</a></li>
+            <li><a href="#">DevOps with AWS</a></li>
+            <li><a href="#">Cloud Computing</a></li>
+            <li><a href="#">SpringBoot & Microservices </a></li>
+            <li><a href="#">Gen AI</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="foot-part" id="box5">
+        <h3>CONTACT US</h3>
+        <hr />
+        <div class="foot-details">
+          <ul>
+            <li>
+              <a href="tel:+912233445566">
+                <span> <i class="fa-solid fa-phone"></i> </span>+91 &nbsp;
+                95084417626</a>
+            </li>
+            <li>
+              <a href="mailto:mail@itvedant.com">
+                <i class="fa-solid fa-envelope"></i>mail@itvedant.com</a>
+            </li>
+
+            <li>
+              <div>
+                <a href="https://maps.app.goo.gl/8kNQ3BFYPG4G5K448">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <span>
+                    ADDRESS: Itvedant Education dadar 502, 5th Floor Sunshine
+                    Plaza,MMGS Marg Gautam nagar, Dadar East,Mumbai,
+                    Maharashtra Pan India Branches
+                  </span>
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="foot-contact">
+        <div>
+          <p>
+            <b id="follow-contact">Follow US : </b>
+            <span> <i class="fa-brands fa-whatsapp"></i></span>
+            <span><i class="fa-brands fa-instagram"></i></span>
+            <span><i class="fa-brands fa-facebook"></i></span>
+            <span><i class="fa-brands fa-youtube"></i></span>
+            <span><i class="fa-brands fa-linkedin"></i></span>
+          </p>
+        </div>
+      </div>
+
+      <div class="foot-copy">
+        <p>&copy; CopyRight ItVednat 2025</p>
+        <p>Made By Pintu <i class="fa-duotone fa-solid fa-face-smile"></i></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

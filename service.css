@@ -1,0 +1,31 @@
+/* General button hover effect */
+.btn {
+    transition: all 0.3s ease-in-out;
+}
+.btn-outline-dark,a{
+    color: black;
+}
+.btn-outline-dark ,a:hover{
+    color: rgb(240, 237, 237);
+}
+
+
+.btn-success:hover {
+    background-color: #1da851;
+    border-color: #3dc16d;
+    color: #fff;
+}
+
+.table-scroll {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+/* Keep table header fixed */
+.table thead th {
+    position: sticky;
+    top: 0;
+    background-color: #343a40;
+    color: white;
+    z-index: 1;
+}
