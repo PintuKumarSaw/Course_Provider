@@ -1,7 +1,42 @@
-# 🎓 Course Provider
+📚 Course Provider
 
-A **modern educational platform** built using HTML, CSS, and JavaScript.  
-This project allows users to explore courses, read details, and contact support — all within a fully responsive design.
+Course Provider is a fully responsive educational website designed to showcase online courses and learning programs. Built using HTML, CSS, and Bootstrap, it offers a clean, modern, and mobile-friendly interface suitable for educational institutions, training centers, or individual instructors.
+
+🚀 Features
+
+Responsive Design: Adapts seamlessly across all devices — desktop, tablet, and mobile.
+
+Modern UI: Built with Bootstrap components for a professional and consistent layout.
+
+Navigation Bar: Fixed navbar for smooth navigation between sections.
+
+Course Section: Highlights available courses with structured cards and clear information.
+
+Contact Form: Functional contact section with form validation for user queries.
+
+About Section: Provides detailed information about the platform or organization.
+
+🛠️ Technologies Used
+
+HTML5
+
+CSS3
+
+Bootstrap 5
+
+📸 Preview
+
+🧩 Folder Structure
+Course_Provider/
+│
+├── index.html
+├── about.html
+├── courses.html
+├── contact.html
+├── css/
+│   └── style.css
+├── images/
+└── README.md
 
 ---
 
@@ -11,26 +46,6 @@ This project allows users to explore courses, read details, and contact support 
 
 ---
 
-## 📸 Preview
-![Preview](https://github.com/pintusaw123/Course_Provider/blob/main/preview.png?raw=true)
-> 🖼️ *Homepage preview of the Course Provider website.*
-
----
-
-## 📂 Project Structure
-Course_Provider/
-
-├── index.html # Main webpage
-
-├── style.css # Styling file
-
-├── script.js # Form handling script
-
-└── preview.png # Project preview image
-
-
-
----
 
 ## 🧰 Tech Stack
 
